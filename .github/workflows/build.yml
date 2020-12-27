@@ -40,7 +40,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          file: ./lua
+          file: ./lua/Dockerfile
           push: true
           tags: atuvaevcom/tarantool-kv-storage:latest
 
