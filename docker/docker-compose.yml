@@ -1,0 +1,11 @@
+version: "2.4"
+
+services:
+
+  tarantool:
+    build:
+      context: ../lua
+    ports:
+      - "8080:8080"
+    restart: always
+    container_name: tarantool
