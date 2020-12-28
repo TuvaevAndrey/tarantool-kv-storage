@@ -1,4 +1,4 @@
-# Tarantool KV-storage with http API
+# Tarantool KV-storage with REST API
 
 #### Implements the following API:
  - `GET /kv/{id}` 
